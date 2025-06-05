@@ -6,7 +6,7 @@ A GitHub App that automatically analyzes pull requests for maintainability issue
 
 1. **Clone the repository**
    ```bash
-   git clone ********
+   git clone https://github.com/tthundup/auto-comment-pr-tenzing.git
    cd auto-comment-pr-tenzing
    ```
 
