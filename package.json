@@ -1,0 +1,30 @@
+{
+  "name": "auto-comment-pr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A GitHub App that automatically comments on PRs with maintainability checks",
+  "author": "thundup",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "node --test",
+    "smee": "node smee.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "probot": "^12.4.0"
+  },
+  "devDependencies": {
+    "nock": "^14.0.0-beta.5",
+    "smee-client": "^1.2.3"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}
